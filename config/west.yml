@@ -11,6 +11,8 @@ manifest:
     # nice_oled - dongle_display!view - oled Adapter
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -35,6 +37,10 @@ manifest:
     # oled Adapter
     - name: zmk-oled-adapter
       remote: mctechnology17
+      revision: main
+    # prospector-zmk-module
+    - name: prospector-zmk-module
+      remote: carrefinho
       revision: main
   self:
     path: config
