@@ -203,7 +203,7 @@ include:
     shield: sofle_dongle_xiao prospector_adapter
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"SofleDongle_X\" -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: xiao_sofle_dongle_xiao_oled
-    snippet: studio-rpc-usb-uart
+    snippet: studio-rpc-usb-uart 
 
   # ProMicro_Dongle
   # - board: nice_nano_v2
